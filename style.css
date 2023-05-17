@@ -1,0 +1,76 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+ 
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+ 
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+ 
+/* End of CSS reset */
+
+
+  .container {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .card {
+    background-color:  hsl(0, 0%, 100%);
+    padding: 18px;
+    border-radius: 17px;
+    text-align: center;
+    margin: 1em;
+  }
+ 
+  .card img {
+    max-width: 100%;
+    border-radius: 12px;
+  }
+
+  .text {
+    padding: 22px 18px;
+  }
+
+  .text h2 {
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 15px;
+  }
+
+  .text p {
+    color: hsl(220, 15%, 55%);
+  }
+
+
+  
+
+
+
